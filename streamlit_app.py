@@ -37,7 +37,6 @@ with st.form("Upload a vegan book🌱📗"):
         placeholder_other_genre = st.empty()
 
     st.markdown("##")
-    st.subheader("Upload PDF")
 
     uploaded_file = st.file_uploader('Upload PDF', type=["pdf"])
     submit = st.form_submit_button(f"Submit file info")
