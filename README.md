@@ -1,4 +1,4 @@
-# Vegan Public Digital Library Uploader
+# Digital Vegan Library Uploader
 
 ![Library Logo](link_to_logo.png) tbd
 
