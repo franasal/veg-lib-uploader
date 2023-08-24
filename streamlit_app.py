@@ -45,6 +45,7 @@ with st.form("Upload a vegan book🌱📗"):
         pdf_metadata = read_pdf_metadata(uploaded_file)
         st.write(f"Detected information: {pdf_metadata}")
 
+
 with placeholder_genre:
     genre = st.selectbox("Genre *", options=genre_list, key="4")
 
@@ -52,22 +53,25 @@ with placeholder_other_genre:
     if genre == "other":
         genre = st.text_input("Enter other genre")
 
+fields={
+    "title": title,
+    "genre": genre,
+    "author": author
+}
 
 if submit:
+
     if title and author and genre:
+
         sample_uid = str(uuid.uuid4())[:8]
         file_name = f"{sample_uid}_{title.lower().replace(' ', '_')}.pdf"
 
-        book_info = {
-            sample_uid: {
-                "title": title,
-                "genre": genre,
-                "sample_uid": sample_uid,
-                "author": author
-            }
+        book_info = { sample_uid: fields
+
         }
         # Save book_info to a database or appropriate storage
         st.success(f"PDF sent! `{file_name}`")
         st.text(f"Submitted: {sample_uid}, {title}, {author}, {genre}")
     else:
-        st.warning("Missing fields")
+        missing_fields = [x for x in fields if not fields[x]]
+        st.warning(f"Missing fields: {', '.join(missing_fields)}")
