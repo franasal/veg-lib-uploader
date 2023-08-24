@@ -29,8 +29,8 @@ with st.form("Upload a vegan book🌱📗"):
     col1, col2 = st.columns(2)
 
     with col1:
-        title = st.text_input("Title", key="2")
-        author = st.text_input("Author", key="3")
+        title = st.text_input("Title *", key="2")
+        author = st.text_input("Author *", key="3")
 
     with col2:
         placeholder_genre = st.empty()
@@ -46,7 +46,7 @@ with st.form("Upload a vegan book🌱📗"):
         st.write(f"Detected information: {pdf_metadata}")
 
 with placeholder_genre:
-    genre = st.selectbox("Genre", options=genre_list, key="4")
+    genre = st.selectbox("Genre *", options=genre_list, key="4")
 
 with placeholder_other_genre:
     if genre == "other":
