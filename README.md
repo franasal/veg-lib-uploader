@@ -1,13 +1,13 @@
 # Digital Vegan Library Uploader
 
-![Library Logo](link_to_logo.png) tbd
+![Library Logo](link_to_logo.bmp)
 
-This project is part of the Vegan Public Digital Library, allowing users to upload vegan-related PDF books to the library. The uploaded books are then made available to the public for free access.
+This project is part of the Digital Vegan Library ( digitalveganlibrary.weebly.com ), allowing users to upload vegan-related PDF books to the library. The uploaded books are then made available to the public for free access.
 
 
 ## Overview
 
-The Vegan Public Digital Library Uploader is a web application built using Streamlit, which provides an easy way for users to contribute to the library's collection of vegan books. Users can upload PDF files of books, provide essential metadata, and categorize the books by genre.
+The Digital Vegan Library Uploader is a web application built using Streamlit, which provides an easy way for users to contribute to the library's collection of vegan books. Users can upload PDF files of books, provide essential metadata, and categorize the books by genre.
 
 ## Features
 
@@ -16,6 +16,7 @@ The Vegan Public Digital Library Uploader is a web application built using Strea
 - Choose from predefined genres or specify a custom genre.
 - Automatic extraction of PDF metadata.
 - Validation of mandatory fields before submission.
+- auto place uploaded books into website
 
 ## Installation
 
