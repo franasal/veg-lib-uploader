@@ -4,14 +4,6 @@
 
 This project is part of the Vegan Public Digital Library, allowing users to upload vegan-related PDF books to the library. The uploaded books are then made available to the public for free access.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
