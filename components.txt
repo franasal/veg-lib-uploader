@@ -1,0 +1,10 @@
+of - uploader
+
+required
+- title
+- author
+- genre
+
+optional
+- source - of info (like a url link)
+- pdf
