@@ -9,7 +9,7 @@ The Digital Vegan Library Uploader is a web application built using Streamlit, w
 
 ## Features
 - Upload PDF files of vegan-related books.
-- Fill in book information like title, author, and genre.
+- Fill in book information like title, author, and genre (see [components.txt](https://github.com/franasal/veg-lib-uploader/blob/main/components.txt)).
 - Choose from predefined genres or specify a custom genre.
 - Automatic extraction of PDF metadata.
 - Validation of mandatory fields before submission.
