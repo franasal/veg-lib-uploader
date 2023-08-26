@@ -4,6 +4,7 @@ required
 - title
 - author
 - genre
+  * subgenres
 
 optional
 - source - of info (like a url link)
