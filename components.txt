@@ -9,3 +9,4 @@ required
 optional
 - source - of info (like a url link)
 - pdf
+  * instructions
