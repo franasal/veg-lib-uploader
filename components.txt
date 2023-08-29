@@ -7,6 +7,6 @@ required
   * subgenres
 
 optional
-- source - of info (like a url link)
+- source - of info (like a url link - for author, title, etc.)
 - pdf
   * instructions
