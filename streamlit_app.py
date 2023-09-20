@@ -2,6 +2,19 @@ import streamlit as st
 from PyPDF2 import PdfReader
 import uuid
 
+
+# hide some stuff
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
 # Function to read PDF metadata
 def read_pdf_metadata(file):
     pdf_reader = PdfReader(file)
